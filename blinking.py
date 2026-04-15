@@ -1,20 +1,12 @@
 """
 Part A: Eye Blink Rate Estimator
-=================================
-Estimates the number of eye blinks per second from a video recording
-using facial landmark detection (MediaPipe Face Mesh).
-
-Method:
-  - Compute the Eye Aspect Ratio (EAR) for both eyes per frame.
-  - A blink is detected when EAR drops below a threshold and rises back.
-  - Report total blinks and blinks-per-second (avg over full recording).
 
 Usage:
-  python part_a_blink_rate.py --video path/to/video.mp4
-  python part_a_blink_rate.py --video path/to/video.mp4 --ear_threshold 0.20 --consec_frames 2
+  python blinking.py --video path/to/video.mp4
+  python blinking.py --video path/to/video.mp4 --ear_threshold 0.20 --consec_frames 2
 
 Dependencies:
-  pip install opencv-python mediapipe numpy matplotlib
+  pip install opencv-python numpy matplotlib mediapipe==0.10.9
 """
 
 import cv2

@@ -1,0 +1,24 @@
+Feature                         Median (px)   Std (px)
+--------------------------------------------------------------------
+  Left Eye Width                         16.0        1.4
+  Right Eye Width                        15.6        1.6
+  Interpupillary Dist.                   35.5        2.9
+  Face Height (top→chin)                 84.5        6.2
+  Face Width (ear→ear)                   81.8        5.8
+  Nose Width (nostril→nostril)           22.6        1.9
+  Nose Height (bridge→tip)               16.0        1.8
+  Mouth Width                            27.6        2.7
+  Mouth Height (lip gap)                  0.5        0.4
+====================================================================
+
+
+==================================================
+  BLINK DETECTION RESULTS
+==================================================
+  Total frames processed : 82413
+  Frames with face found : 80919
+  Total blinks detected  : 1314
+  Video duration         : 2749.86 s
+  Blinks per second      : 0.4778
+  Blinks per minute      : 28.67
+==================================================

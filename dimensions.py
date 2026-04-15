@@ -2,11 +2,11 @@
 Part B: Facial Dimension Estimator
 
 Usage:
-  python part_b_face_dims.py --video path/to/video.mp4
-  python part_b_face_dims.py --video path/to/video.mp4 --reference_mm 63 --output_annotated annotated.mp4
+  python dimensions.py --video path/to/video.mp4
+  python dimensions.py --video path/to/video.mp4 --reference_mm 63 --output_annotated annotated.mp4
 
 Dependencies:
-  pip install opencv-python mediapipe numpy matplotlib
+  pip install opencv-python numpy matplotlib mediapipe==0.10.9
 """
 
 import cv2
