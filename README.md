@@ -69,5 +69,5 @@ python dimensions.py --video path/to/video.mp4 --reference_mm 63 --output_annota
 ## Dependencies
 
 ```bash
-pip install opencv-python mediapipe numpy matplotlib scipy
+pip install opencv-python numpy matplotlib scipy mediapipe==0.10.9
 ```
