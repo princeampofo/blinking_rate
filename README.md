@@ -1,4 +1,4 @@
-# Blinking Rate
+# Blinking Rate and Facial Dimensions Estimation
 
 Two tools that use **MediaPipe Face Mesh** to analyse facial features from video. The videos were in .lrv format and were converted to .mp4 using [ffmpeg](https://ffmpeg.org/):
 
